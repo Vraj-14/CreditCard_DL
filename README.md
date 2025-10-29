@@ -117,21 +117,7 @@ The project includes multiple visualizations to interpret model performance:
 
 ## 🖼️ Results Visualization
 
-<p align="center">
-  <img src="image(1).jpeg" width="600">
-</p>
-
-<p align="center">
-  <img src="image(2).jpeg" width="600">
-</p>
-
-<p align="center">
-  <img src="image(3).jpeg" width="600">
-</p>
-
-<p align="center">
-  <img src="image(4).jpeg" width="600">
-</p>
+![CreditCard_DL](image(1).jpeg)
 
 ## 💡 Key Learnings and Insights
 
