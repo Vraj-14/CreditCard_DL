@@ -117,30 +117,21 @@ The project includes multiple visualizations to interpret model performance:
 
 ## 🖼️ Results Visualization
 
-All results are stored in the `images/` folder.  
-You can add your generated plots there and reference them using the Markdown below.
-
-### 🔹 Training Accuracy & Loss
 <p align="center">
-  <img src="images/training_curves.png" width="550" alt="Training Accuracy and Loss">
+  <img src="image(1).jpeg" width="600">
 </p>
 
-### 🔹 Confusion Matrix
 <p align="center">
-  <img src="images/confusion_matrix.png" width="500" alt="Confusion Matrix">
+  <img src="image(2).jpeg" width="600">
 </p>
 
-### 🔹 ROC-AUC Curve
 <p align="center">
-  <img src="images/roc_auc_curve.png" width="500" alt="ROC Curve">
+  <img src="image(3).jpeg" width="600">
 </p>
 
-### 🔹 Model Comparison
 <p align="center">
-  <img src="images/model_comparison.png" width="500" alt="Model Comparison">
+  <img src="image(4).jpeg" width="600">
 </p>
-
----
 
 ## 💡 Key Learnings and Insights
 
