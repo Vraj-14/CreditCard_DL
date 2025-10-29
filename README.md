@@ -117,7 +117,7 @@ The project includes multiple visualizations to interpret model performance:
 
 ## 🖼️ Results Visualization
 
-![CreditCard_DL](image(1).jpeg)
+![CreditCard_DL](image (1).jpeg)
 
 ## 💡 Key Learnings and Insights
 
