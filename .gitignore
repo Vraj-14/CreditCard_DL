@@ -1,1 +1,4 @@
-/venv
+venv/
+outputs/
+Domain-Specific Machine Learning Project Outlines.pdf
+!src/

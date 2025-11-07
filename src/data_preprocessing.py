@@ -28,3 +28,7 @@ print("Train Shape:", X_train.shape, y_train.shape)
 print("Test Shape:", X_test.shape, y_test.shape)
 print("Train Fraud Ratio:", y_train.mean())
 print("Test Fraud Ratio:", y_test.mean())
+
+import joblib
+joblib.dump(scaler, 'utils/scaler.pkl')
+print("Scaler saved to utils/scaler.pkl")

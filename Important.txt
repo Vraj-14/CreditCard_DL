@@ -1,0 +1,2 @@
+in streamlit ui, if user enters row number: 5, then the model will take data of row: 6
+that is, mdoel will read the data of next row corrospondiong to user input row number.
