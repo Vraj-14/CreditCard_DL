@@ -1,4 +1,19 @@
+# Ignore virtual environment
 venv/
+
+# Ignore generated outputs
 outputs/
-Domain-Specific Machine Learning Project Outlines.pdf
+
+# Ignore processed data folder
+data/processed/
+
+# Ignore dataset folder
+dataset/
+
+# Keep src/ (tracked code)
 !src/
+
+# Optionally ignore large or temporary files
+*.pyc
+__pycache__/
+.DS_Store
