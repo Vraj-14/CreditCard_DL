@@ -192,63 +192,6 @@ st.markdown("**Trained on 284K+ transactions • XGBoost • 89% Fraud Recall**"
 # Tabs
 tab1, tab2 = st.tabs(["Test from Original CSV", "Demo Transactions"])
 
-# =====================================
-# TAB 1: Test from Original CSV
-# =====================================
-# with tab1:
-#     st.header("Test Any Row from `creditcard.csv`")
-    
-#     col1, col2 = st.columns([1, 2])
-    
-#     with col1:
-#         row_idx = st.number_input(
-#             "Enter Row Number (0 to 284806)",
-#             min_value=0,
-#             max_value=len(df)-1,
-#             value=541,
-#             step=1
-#         )
-        
-#         if st.button("Load & Predict", type="primary", use_container_width=True):
-#             row = df.iloc[row_idx]
-            
-#             # Extract features
-#             amount = row['Amount']
-#             time_sec = int(row['Time'])
-#             v_features = {f'V{i}': row[f'V{i}'] for i in range(1, 29)}
-            
-#             # Predict
-#             X = prepare_input(amount, time_sec, v_features)
-#             proba = model.predict_proba(X)[0][1]
-#             label = "FRAUD" if proba > 0.5 else "LEGITIMATE"
-#             confidence = round(proba * 100, 2)
-            
-#             st.session_state.result = {
-#                 "label": label,
-#                 "confidence": confidence,
-#                 "proba": proba,
-#                 "amount": amount,
-#                 "time": time_sec,
-#                 "class": int(row['Class'])
-#             }
-    
-#     with col2:
-#         if 'result' in st.session_state:
-#             res = st.session_state.result
-#             color = "#ff6b6b" if res['label'] == "FRAUD" else "#51cf66"
-#             st.markdown(f"<h2 style='color: {color}; text-align: center;'>{res['label']}</h2>", unsafe_allow_html=True)
-            
-#             col_a, col_b, col_c = st.columns(3)
-#             with col_a:
-#                 st.metric("Fraud Probability", f"{res['proba']:.1%}")
-#             with col_b:
-#                 st.metric("Confidence", f"{res['confidence']}%")
-#             with col_c:
-#                 st.metric("True Label", "FRAUD" if res['class'] == 1 else "LEGITIMATE")
-            
-#             st.info(f"**Amount**: €{res['amount']:.2f} | **Time**: {res['time']} sec")
-
-
 with tab1:
     st.header("Test Any Row from `creditcard.csv`")
     
