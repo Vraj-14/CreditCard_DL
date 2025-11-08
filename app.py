@@ -167,6 +167,9 @@ import pandas as pd
 import joblib
 from utils.preprocessor import prepare_input
 
+# Page config
+st.set_page_config(page_title="Fraud Detector", page_icon="shield", layout="wide")
+
 # Load scaler and model
 @st.cache_resource
 def load_resources():
@@ -183,8 +186,7 @@ def load_original():
 
 df = load_original()
 
-# Page config
-st.set_page_config(page_title="Fraud Detector", page_icon="shield", layout="wide")
+
 
 st.markdown("<h1 style='text-align: center; color: #1f77b4;'>Credit Card Fraud Detector</h1>", unsafe_allow_html=True)
 st.markdown("**Trained on 284K+ transactions • XGBoost • 89% Fraud Recall**")
